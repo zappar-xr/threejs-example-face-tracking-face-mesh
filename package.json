@@ -12,6 +12,7 @@
   "license": "Proprietary",
   "devDependencies": {
     "@types/node": "^14.14.33",
+    "@types/three": "^0.126.0",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "css-loader": "^5.1.1",
@@ -29,7 +30,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@types/three": "^0.126.0",
     "@zappar/zappar-threejs": "^0.3.8",
     "three": "^0.126.1"
   }
