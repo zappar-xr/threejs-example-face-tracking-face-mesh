@@ -6,8 +6,10 @@
 
 import * as ZapparThree from '@zappar/zappar-threejs';
 import * as THREE from 'three';
-import faceTextureTemplate from '../assets/faceMeshTemplate.png';
-import './index.sass';
+import './index.css';
+
+const faceTextureTemplate = new URL('../assets/faceMeshTemplate.png', import.meta.url).href;
+
 // The SDK is supported on many different browsers, but there are some that
 // don't provide camera access. This function detects if the browser is supported
 // For more information on support, check out the readme over at
