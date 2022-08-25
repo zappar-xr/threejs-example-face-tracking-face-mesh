@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --https",
-    "build": "parcel build"
+    "build": "parcel build --public-url='./'"
   },
   "author": "Zappar Limited",
   "license": "MIT",
